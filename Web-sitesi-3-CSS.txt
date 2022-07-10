@@ -1,0 +1,141 @@
+*{
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.header{
+    height :100vh;
+    width: 100%;
+    position: relative;
+    background-image: url(/imagesforme/gezegen.png);
+    
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+   
+    width: 140px;
+}
+
+.linkler{
+    padding: 28px 0;
+
+
+}
+.linkler li{
+    display: inline-block;
+    margin: 0 15px;
+
+}
+
+.linkler li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.linkler li a::after{
+
+    content: '';
+    background: #ff3d00;
+    width: 0;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s ;
+
+}
+.linkler li a:hover::after{
+    color: #ff3d00;
+    width: 100%;
+}
+    
+.kayıt{
+    border-radius: 2px;
+    background: #ff3d00;
+    color: #ff3d00;
+    padding: 10px 40px;
+    cursor: pointer;
+}
+
+/*Ana  Sayfa Bölümü*/
+
+.coder{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 90%;
+    max-width: 900px;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 50px;
+}
+
+.coder h1{
+
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.coder form{
+    background: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex;
+}
+
+.coder form input{
+    flex: 1; 
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    font-size: 18px;
+}
+
+.coder form button{
+    background: #ff3d00;
+    color: #fff;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.kategori{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+
+
+}
+
+.kategori2{
+    width: 80px;
+    height: 80px;
+    background:transparent;
+    margin: 0 10px;
+
+}
+
+.kategori img{
+    width: 25px;
+
+
+}
+
+.kategori2 p{
+    color: #fff;
+}

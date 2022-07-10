@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web sitesi yine yeniden</title>
+    <link rel="stylesheet" href="yineyeniden.css">
+
+</head>
+<body>
+
+    <div class="header">
+        <nav>
+            <img src="/imagesforme/codinglogo3.png" class="logo">
+        
+        <ul class="linkler">
+            <li><a href="">Ana Sayfa</a></li>
+            <li><a href="">Kurslar</a></li>
+            <li><a href="">Videolarımız</a></li>
+            <li><a href="">Bağlantılarımız</a></li>
+            <li class="kayıt"><a href="">KAYIT</a></li>
+        </ul>
+        </nav>
+
+        <div class="coder">
+            <h1>İstersen Herşeyi öğrenebilirsin</h1>
+            <form>
+                <input type="text" placeholder=" &#x270e; Entere Bas">
+                <button type="submit">İş Bul</button>
+            </form>
+        
+        <div class="kategori">
+
+            <div class="kategori2">
+                <img src="/imagesforme/media/coding.png">
+            <p>Web devoloping</p>
+            </div>
+            
+            
+            <div class="kategori2"> <img src="/imagesforme/media/console.png">
+                <p>Konsol</p>
+            </div>
+           
+
+            <div class="kategori2">
+                <img src="/imagesforme/media/exercise.png">
+            <p>Eksersiz</p>
+            </div>
+            
+            <div class="kategori2">
+                <img src="/imagesforme/media/guitar.png">
+            <p>gitar</p>
+            </div>
+            
+            <div class="kategori2"><img src="/imagesforme/media/language.png">
+                <p>Dil dersi</p>
+            </div>
+            
+        </div>
+    </div>
+</body>    
+</html>
